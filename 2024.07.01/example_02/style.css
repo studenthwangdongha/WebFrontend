@@ -16,13 +16,13 @@ div {
     color: blue;
 } */
 
-#first-ul{
+/* #first-ul{
     color: red;
 }
 
 .second-ul{
     color: green;
-}
+} */
 
 /* [href]{
     color: red;
@@ -32,7 +32,7 @@ div {
     color: blue;
 } */
 
-a[target="_blank"]{
+/* a[target="_blank"]{
     color: red;
 }
 
@@ -47,3 +47,41 @@ ul li:first-child {
 a[target="_blank"]::after{
     content: ' (새 창)';
 }
+
+h2{
+    color: purple;
+}
+
+div {
+    color: plum;
+}
+
+div h2{
+    color: inherit;
+    color: initial;
+} */
+
+/* .parent > p{
+    color: blue;
+} */
+
+/* a ~ p{
+    color: red;
+} */
+
+#bar{
+    color: green ;
+}
+
+.foo{
+    color: blue;
+}
+
+/* body div{
+    color: blue !important;
+}
+
+div{
+    color: red !important;
+} */
+
