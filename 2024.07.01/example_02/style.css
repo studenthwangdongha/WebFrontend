@@ -1,0 +1,49 @@
+/* body {
+    color: red;
+}
+div {
+    color: blue;
+    주석은 여러줄 넣을 수
+    
+    있다.
+} */
+
+ /* *{
+    color: red;
+ } */
+
+/* li {
+    color: blue;
+} */
+
+#first-ul{
+    color: red;
+}
+
+.second-ul{
+    color: green;
+}
+
+/* [href]{
+    color: red;
+}
+
+[href="https://naver.com"]{
+    color: blue;
+} */
+
+a[target="_blank"]{
+    color: red;
+}
+
+a:hover{
+    color: blue;
+}
+
+ul li:first-child {
+    color: blue;
+}
+
+a[target="_blank"]::after{
+    content: ' (새 창)';
+}
